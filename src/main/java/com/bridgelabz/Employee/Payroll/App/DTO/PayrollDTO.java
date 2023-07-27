@@ -17,7 +17,7 @@ public class PayrollDTO {
     @Pattern(regexp = "^[A-Za-z0-9+_.-]+@(.+)$",message = "Invalid email-ID")
     public String email;
 
-    //@Pattern(regexp = "^[\\d{3}-\\d{3}-\\d{4}]$",message = "Invalid Phone Number")
+    @Pattern(regexp = "^[\\d{3}-\\d{3}-\\d{4}]$",message = "Invalid Phone Number")
     public String phone;
     public String address;
     @Min(value = 1000, message = "Salary should be greater than 1000")
