@@ -1,0 +1,4 @@
+2023-07-22T14:01:19.971+05:30  WARN 11612 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-22T14:01:20.770+05:30  WARN 11612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-07-22T14:01:20.890+05:30 ERROR 11612 --- [restartedMain] c.b.E.P.A.EmployeePayrollAppApplication  : Error level
+2023-07-22T14:01:20.890+05:30  WARN 11612 --- [restartedMain] c.b.E.P.A.EmployeePayrollAppApplication  : Warn level
